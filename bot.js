@@ -12,7 +12,9 @@ const prefix = "="
 
    client.on("message", message => {
  if (message.content === "=help") {
-message.channel.send('**${prefix}q1 ➼ القرآن الكريم بصوت الشيخ ماهر المعيقلي
+message.channel.send('
+**
+${prefix}q1 ➼ القرآن الكريم بصوت الشيخ ماهر المعيقلي
 ${prefix}q2 ➼ القران الكريم بصوت هزاع البلوشي
 ${prefix}q3 ➼ القرآن الكريم بصوت الشيخ ياسر الدوسري
 ${prefix}q4 ➼ القرآن الكريم بصوت الشيخ أحمد العجمي
